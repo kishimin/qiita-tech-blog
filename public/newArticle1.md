@@ -1,17 +1,17 @@
 ---
 title: テスティングトロフィーを意識しすぎて、統合テストしか書かなかった
 tags:
-  - "test"
-  - "frontend"
+  - テスト
+  - フロントエンド
 private: false
-updated_at: ""
-id: null
+updated_at: '2026-05-10T14:31:00+09:00'
+id: 0b3c95788dbd4063e35b
 organization_url_name: null
 slide: false
 ignorePublish: false
 ---
 
-# 背景
+## 背景
 
 フロントエンドのテスト設計を調べる中で、テスティングトロフィーという考え方を知りました。
 

@@ -1,16 +1,18 @@
 ---
 title: Zod のスキーマ定義が原因で"Type 'unknown' is not assignable to type ～"が発生した
 tags:
-  - React
+  - TypeScript
   - フロントエンド
-  - Zod
-  - Typescript
+  - React
+  - zod
 private: false
-updated_at: ""
-id: null
+updated_at: '2026-07-12T17:05:16+09:00'
+id: bc6ba87fab1c142abaf1
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 ## やりたいこと

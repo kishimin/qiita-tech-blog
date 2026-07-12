@@ -1,12 +1,12 @@
 ---
 title: \"Assets in public directory cannot be imported from JavaScript.\" のエラーを解消する
 tags:
-  - React
   - テスト
   - フロントエンド
+  - React
 private: false
-updated_at: ""
-id: null
+updated_at: '2026-07-12T17:44:24+09:00'
+id: 828de84417f2d78dd31e
 organization_url_name: null
 slide: false
 ignorePublish: false

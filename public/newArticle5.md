@@ -1,13 +1,13 @@
 ---
 title: Testing Library で Unable to find role="listitem" が発生した原因が Zod の UUID 検証だった
 tags:
-  - React
   - テスト
   - フロントエンド
-  - Zod
+  - React
+  - zod
 private: false
-updated_at: ""
-id: null
+updated_at: '2026-07-12T17:33:12+09:00'
+id: bfa55e489c5b239b2fd1
 organization_url_name: null
 slide: false
 ignorePublish: false

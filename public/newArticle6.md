@@ -1,5 +1,5 @@
 ---
-title: \"Assets in public directory cannot be imported from JavaScript.\" のエラーを解消する
+title: "Assets in public directory cannot be imported from JavaScript." のエラーを解消する
 tags:
   - テスト
   - フロントエンド

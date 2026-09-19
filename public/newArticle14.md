@@ -1,5 +1,5 @@
 ---
-title: Pillow でフォント読み込み時に「OSError: cannot open resource」が発生した
+title: "Pillow でフォント読み込み時に「OSError: cannot open resource」が発生した"
 tags:
   - Python
   - Pillow

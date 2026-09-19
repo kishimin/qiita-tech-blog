@@ -1,9 +1,9 @@
 ---
 title: React Hook FormでhandleSubmitを呼んでもバリデーションエラーが表示されなかった
 tags:
-  * React
-  * ReactHookForm
-  * TypeScript
+  - React
+  - ReactHookForm
+  - TypeScript
 private: false
 updated_at: ""
 id: null

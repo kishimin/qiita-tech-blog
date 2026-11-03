@@ -158,7 +158,7 @@ https://github.com/testing-library/jest-dom#tobeinthedocument
 
 `slotProps` の `input` に指定した props は、内部の `<input type="checkbox">` に指定される。
 
-そこで、input とヘルパーテキストを紐づけるために、`slotProps` の `input` に `aria-describedby` を指定している。値にはヘルパーテキストの `id` を指定している。
+`slotProps` の `input` に指定した `aria-describedby` とヘルパーテキストの `id` を紐づけないと、input とヘルパーテキストが紐づかない。
 
 https://mui.com/material-ui/api/checkbox/
 

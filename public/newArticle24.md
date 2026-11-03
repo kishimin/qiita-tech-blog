@@ -124,7 +124,7 @@ test("のんびりというチェックボックスのヘルパーテキスト�
 
 #### 1. input の表示の検証
 
-MUI v6.4.12 の Checkbox は、内部で `SwitchBase` を使っています。`SwitchBase` は、操作領域の土台となる root と、実際の入力を担う input の両方を持ち、チェック状態に応じたアイコンも表示します。
+MUI v6.4.12 の Checkbox は、内部で `SwitchBase` を使っている。`SwitchBase` は、操作領域の土台となる root と、実際の入力を担う input の両方を持ち、チェック状態に応じたアイコンも表示している。
 
 ```text
 Checkbox
@@ -136,11 +136,11 @@ Checkbox
          └─ チェック状態に応じたアイコン
 ```
 
-`opacity: 0` は、`SwitchBaseInput` のスタイルとして input に指定されています。見た目はアイコンで表現する一方、input はチェック状態や入力イベントを扱います。
+`opacity: 0` は、`SwitchBaseInput` のスタイルとして input に指定されている。見た目はアイコンで表現する一方、input はチェック状態や入力イベントを扱っている。
 
-`getByRole("checkbox")` が取得するのは、`checkbox` ロールを持つ input です。jest-dom の `toBeVisible()` は `opacity: 0` の要素を非表示と判定するため、この input に対する `toBeVisible()` は失敗します。
+`getByRole("checkbox")` が取得するのは、`checkbox` ロールを持つ input である。jest-dom の `toBeVisible()` は `opacity: 0` の要素を非表示と判定するため、この input に対する `toBeVisible()` は失敗する。
 
-そのため、`toBeVisible()` の代わりに `toBeInTheDocument()` を使い、input が DOM に存在することを確認しています。これはアイコンの視覚的な表示を保証するものではありません。
+そのため、`toBeVisible()` の代わりに `toBeInTheDocument()` を使い、input が DOM に存在することを確認している。これはアイコンの視覚的な表示を保証するものではない。
 
 参考（MUI v6.4.12 の実装）：
 
@@ -156,9 +156,9 @@ https://github.com/testing-library/jest-dom#tobeinthedocument
 
 #### 2. ヘルパーテキストの紐づけ
 
-`slotProps` の `input` に指定した props は、内部の `<input type="checkbox">` に指定されます。
+`slotProps` の `input` に指定した props は、内部の `<input type="checkbox">` に指定される。
 
-そこで、input とヘルパーテキストを紐づけるために、`slotProps` の `input` に `aria-describedby` を指定しています。値にはヘルパーテキストの `id` を指定しています。
+そこで、input とヘルパーテキストを紐づけるために、`slotProps` の `input` に `aria-describedby` を指定している。値にはヘルパーテキストの `id` を指定している。
 
 https://mui.com/material-ui/api/checkbox/
 

@@ -140,7 +140,9 @@ Checkbox
 
 `getByRole("checkbox")` が取得するのは、`checkbox` ロールを持つ input である。jest-dom の `toBeVisible()` は `opacity: 0` の要素を非表示と判定するため、この input に対する `toBeVisible()` は失敗する。
 
-そのため、`toBeVisible()` の代わりに `toBeInTheDocument()` を使い、input が DOM に存在することを確認している。これはアイコンの視覚的な表示を保証するものではない。
+そのため、`toBeVisible()` ではなく `toBeInTheDocument()` で input が DOM に存在することを確認する。
+
+ただし、アイコンが表示されていることは確認できない。
 
 参考（MUI v6.4.12 の実装）：
 

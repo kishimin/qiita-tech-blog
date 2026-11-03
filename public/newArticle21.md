@@ -4,8 +4,8 @@ tags:
   - Bun
   - TypeScript
 private: false
-updated_at: ""
-id: null
+updated_at: '2026-11-03T14:55:52+09:00'
+id: 37a695ebd4a216575051
 organization_url_name: null
 slide: false
 ignorePublish: false

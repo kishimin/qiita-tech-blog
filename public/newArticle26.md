@@ -251,22 +251,22 @@ IPAの資料では、パスキーについて以下のように説明されて�
 
 <!-- 多段階認証、多要素認証、パスキー -->
 
-[^1]: [情報セキュリティ10大脅威 2024 知っておきたい用語や仕組み](https://www.ipa.go.jp/security/10threats/m42obm000000jlc5-att/yougoyashikumi_2024.pdf)（確認日: 2026/11/07）
+[^1]: [情報セキュリティ10大脅威 2024 知っておきたい用語や仕組み](https://www.ipa.go.jp/security/10threats/m42obm000000jlc5-att/yougoyashikumi_2024.pdf)
 
 <!-- ワンタイムパスワード -->
 
-[^2]: [情報セキュリティ10大脅威 2024[個人編]（一般利用者向け）](https://www.ipa.go.jp/security/10threats/m42obm000000jlbr-att/setsumei_2024_kojin_general.pdf)（確認日: 2026/11/08）
+[^2]: [情報セキュリティ10大脅威 2024[個人編]（一般利用者向け）](https://www.ipa.go.jp/security/10threats/m42obm000000jlbr-att/setsumei_2024_kojin_general.pdf)
 
 <!-- パスキーの認証のイメージ -->
 
-[^3]: [IPA NEWS Vol.68（2024年9月号）](https://www.ipa.go.jp/about/ipanews/ipanews202409.html)（確認日: 2026/11/07）
+[^3]: [IPA NEWS Vol.68（2024年9月号）](https://www.ipa.go.jp/about/ipanews/ipanews202409.html)
 
 <!-- fido ALLIANCEのパスキー -->
 
-[^4]: [パスキー](https://fidoalliance.org/passkeys/?lang=ja)（確認日: 2026/11/07）
+[^4]: [パスキー](https://fidoalliance.org/passkeys/?lang=ja)
 
-[^5]: [パスキー](https://fidoalliance.org/passkeys-2/?lang=ja)（確認日: 2026/11/07）
+[^5]: [パスキー](https://fidoalliance.org/passkeys-2/?lang=ja)
 
-[^6]: [デジタル庁 オンラインでの本人確認の手法に関するガイドライン（1.2 その他の当人認証手法）](https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/c7edc43c/20260224_resources_standard_guideline_identityverification_1.pdf)（確認日: 2026/11/08）
+[^6]: [デジタル庁 オンラインでの本人確認の手法に関するガイドライン（1.2 その他の当人認証手法）](https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/c7edc43c/20260224_resources_standard_guideline_identityverification_1.pdf)
 
-[^7]: [NIST Authenticator Examples](https://pages.nist.gov/800-63-4-Implementation-Resources/authenticator/)（確認日: 2026/11/08）
+[^7]: [NIST Authenticator Examples](https://pages.nist.gov/800-63-4-Implementation-Resources/authenticator/)

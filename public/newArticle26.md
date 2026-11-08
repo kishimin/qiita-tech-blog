@@ -247,6 +247,16 @@ IPAの資料では、パスキーについて以下のように説明されて�
 
 <!-- 伝えたいこと -->
 
+## NISTとは
+
+NIST（National Institute of Standards and Technology）について、公式サイトでは以下のように説明されています。
+
+> The National Institute of Standards and Technology (NIST) was founded in 1901 and is now part of the U.S. Department of Commerce.
+
+出典：[^8]
+
+NISTは1901年に設立され、現在は米国商務省に属する機関です（引用文の訳）。
+
 ## 参考
 
 <!-- 多段階認証、多要素認証、パスキー -->
@@ -270,3 +280,5 @@ IPAの資料では、パスキーについて以下のように説明されて�
 [^6]: [デジタル庁 オンラインでの本人確認の手法に関するガイドライン（1.2 その他の当人認証手法）](https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/c7edc43c/20260224_resources_standard_guideline_identityverification_1.pdf)
 
 [^7]: [NIST Authenticator Examples](https://pages.nist.gov/800-63-4-Implementation-Resources/authenticator/)
+
+[^8]: [About NIST](https://www.nist.gov/about-nist)

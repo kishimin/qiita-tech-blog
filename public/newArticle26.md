@@ -37,19 +37,19 @@ agreed_posting_campaign_term: false
 
 ![多段階認証・多要素認証](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2284906/c6469e6f-b15e-4823-a425-e5f9f9465eee.png)
 
-出典：[IPA「情報セキュリティ10大脅威 2024 知っておきたい用語や仕組み」](https://www.ipa.go.jp/security/10threats/m42obm000000jlc5-att/yougoyashikumi_2024.pdf)（12ページ）
+出典：[1]（12ページ）
 
 ## 多段階認証とは
 
 > 認証する回数を 1 回ではなく 2 回以上に分けて行うことを多段階認証といいます。例えばサービスにログインする際に、1 つ目のパスワードを入力して認証した後、2つ目のパスワードを入力して複数の段階で認証することでセキュリティを高めようとする方式です。
 
-出典：[IPA「情報セキュリティ10大脅威 2024 知っておきたい用語や仕組み」](https://www.ipa.go.jp/security/10threats/m42obm000000jlc5-att/yougoyashikumi_2024.pdf)（12ページ）
+出典：[1]（12ページ）
 
 ## 多要素認証とは
 
 > 認証するための要素を大別すると3 つの要素があり、これらを認証の 3 要素としています。それぞれ、「記憶」、「所持」、「生体情報」を指します。これら複数の要素で認証することを多要素認証といいます。（2 つの要素で認証することは二要素認証ともいいます。）例えば「記憶」とはパスワードや PIN コード等の”覚えている情報”、「所持」はキャッシュカードや OTP（ワンタイムパスワード）トークン等の”所持しているもの”、「生体情報」は静脈や指紋、顔の情報等の”身体的特徴等”を指します。例えばログイン画面でパスワードを入力後、自分の携帯電話にワンタイムパスワードが記載されたSMS が送信され、そのワンタイムパスワードを入力することでログインするサービスです。パスワードを2回入力するため、一見多要素認証ではないように思えますが、SMS は電話番号宛に送信されるので、携帯電話を所持している人にしか見られない性質を生かして多要素認証の要件を満たしています。
 
-出典：[IPA「情報セキュリティ10大脅威 2024 知っておきたい用語や仕組み」](https://www.ipa.go.jp/security/10threats/m42obm000000jlc5-att/yougoyashikumi_2024.pdf)（12ページ、一部抜粋）
+出典：[1]（12ページ、一部抜粋）
 
 | 認証要素 | 例 |
 | --- | --- |
@@ -57,7 +57,7 @@ agreed_posting_campaign_term: false
 | 所持 | キャッシュカード、OTPトークン |
 | 生体情報 | 指紋、顔、静脈 |
 
-出典：[IPA「情報セキュリティ10大脅威 2024 知っておきたい用語や仕組み」](https://www.ipa.go.jp/security/10threats/m42obm000000jlc5-att/yougoyashikumi_2024.pdf)（12ページ）をもとに作成
+出典：[1]（12ページ）をもとに作成
 
 ## 多段階認証と多要素認証の違い
 
@@ -88,7 +88,7 @@ agreed_posting_campaign_term: false
 以下は、IPAが公開している資料内のワンタイムパスワードについてです。
 
 ![ワンタイムパスワード](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2284906/d729b7a8-1190-4243-b4ea-ef0bee2a4ed5.png)
-出典：[IPA「情報セキュリティ10大脅威 2024［個人編］（一般利用者向け）」](https://www.ipa.go.jp/security/10threats/m42obm000000jlbr-att/setsumei_2024_kojin_general.pdf)
+出典：[2]
 
 ## 確かめてみる
 
@@ -110,7 +110,7 @@ agreed_posting_campaign_term: false
 >
 > いずれの方式においても、ワンタイムパスワードは所有物認証としてみなすことができ、知識認証であるパスワード認証と組み合わせることで当人認証保証レベル 2 に該当する多要素認証として機能します。
 
-出典：[デジタル庁「オンラインでの本人確認の手法に関するガイドライン」1.2 その他の当人認証手法](https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/c7edc43c/20260224_resources_standard_guideline_identityverification_1.pdf)（1.2.1 ア）
+出典：[6]（1.2.1 ア）
 
 この記載から、メールで受け取るワンタイムパスワードも「所持」として扱い、パスワードの「記憶」と組み合わせることで、多要素認証に該当すると解釈できます。
 
@@ -132,7 +132,7 @@ agreed_posting_campaign_term: false
 >
 > ただし、当人認証保証レベル 2 においては、少なくとも一つのフィッシング耐性を有する手法を提供することが必要となるため、マイナンバーカード又はパスキーが手法として採用されていることが前提となります。パスワード認証＋ワンタイムパスワード認証の組み合わせのような、フィッシング耐性を有さない手法だけを利用可能としても、当人認証保証レベル 2 の対策基準は満たせないことに留意が必要です。
 
-出典：[デジタル庁「オンラインでの本人確認の手法に関するガイドライン」1.2 その他の当人認証手法](https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/c7edc43c/20260224_resources_standard_guideline_identityverification_1.pdf)（当人認証保証レベル2の場合）
+出典：[6]（当人認証保証レベル2の場合）
 
 # パスキーの例
 
@@ -142,26 +142,26 @@ agreed_posting_campaign_term: false
 
 まずは、パスキーについて整理してみます。
 
-IPAが公開しているパスキーの認証イメージは、[IPA NEWS Vol.68（2024年9月号）](https://www.ipa.go.jp/about/ipanews/ipanews202409.html)で確認できます。
+IPAが公開しているパスキーの認証イメージは、IPA NEWS Vol.68（2024年9月号）[3]で確認できます。
 
 IPAの資料では、パスキーについて以下のように説明されています。
 
 > パスワードを使わない認証方法の 1 つです。パスワード入力の代わりにスマートフォンなどの機器の生体認証（指紋、顔）や画面ロックの解除（PIN 等）を行うことで認証を行います。パスキーを利用することで「セキュリティ上安全なパスワードを考えるのが大変」「パスワードを覚えていられない」「何等かの方法でパスワードが盗まれて不正アクセスされてしまった」等の問題を解決することができるため、注目されています。
 
-出典：[IPA「情報セキュリティ10大脅威 2024 知っておきたい用語や仕組み」](https://www.ipa.go.jp/security/10threats/m42obm000000jlc5-att/yougoyashikumi_2024.pdf)（31〜32ページ）
+出典：[1]（31〜32ページ）
 
 また、IPA NEWSでは以下のように説明されています。
 
 > より安全な認証を行うには認証の3要素である「知識情報」「所持情報」「生体情報」のうち2つ以上を組み合わせる多要素認証が推奨されますが、これを安全かつ便利に行う認証方式として注目されるのが、FIDOアライアンスが策定する「パスキー」です。特徴は、公開鍵暗号方式を用いることでパスワードが不要となること。パスワードの代わりに、スマホなどデバイスの生体認証やPIN（個人識別番号）などの画面ロック解除によって認証を行うのです。
 
-出典：[IPA NEWS Vol.68（2024年9月号）](https://www.ipa.go.jp/about/ipanews/ipanews202409.html)
+出典：IPA NEWS Vol.68（2024年9月号）[3]
 
 さらに、FIDO Allianceでは、パスキーについて以下のように説明されています。
 
 > FIDO標準に基づき、パスキーはパスワードに代わるもので、ユーザーのデバイスにまたがるウェブサイトやアプリへのサインインをより迅速、簡単、かつ安全に行うことができる。 パスワードとは異なり、パスキーは常に強固でフィッシングに強い。
 > パスキーは、アプリやウェブサイトのアカウント登録を簡素化し、使いやすく、ユーザーのほとんどのデバイスで機能し、物理的に近くにある他のデバイスでも機能する。
 
-出典：[FIDO Alliance「パスキー」](https://fidoalliance.org/passkeys/?lang=ja)
+出典：[4]
 
 > パスキーはパスワードの代わりです。
 > パスワードは覚えて入力できるものであり、パスキーはデバイスに保存される秘密であり、ユーザーがデバイスのロックを解除するのと同じようにロックを解除します(生体認証、PIN、パターンなど)。
@@ -169,7 +169,7 @@ IPAの資料では、パスキーについて以下のように説明されて�
 > パスキーは、アプリやウェブサイトのアカウント登録を簡素化し、使いやすく、ユーザーのすべてのデバイスだけでなく、物理的に近くにある他のデバイスでも機能します。
 > 技術的な観点から見ると、パスキーはパスワードレス認証のためのFIDO資格情報です。 パスキー は、パスワードを暗号化キーのペアに置き換えることで、フィッシングに強いサインインセキュリティとユーザーエクスペリエンスの向上を実現します。 暗号鍵は、エンドユーザー・デバイス（コンピュータ、電話、またはセキュリティ・キー）からユーザー認証のために使用される。 パスキーは、ユーザのデバイス間で安全に同期することも、特定のデバイスにバインドすることもできます(デバイスバインドパスキー)。
 
-出典：[FIDO Alliance「パスキー」](https://fidoalliance.org/passkeys-2/?lang=ja)（引用時の記載。現在のページでは文言を確認できませんでした）
+出典：[5]（引用時の記載。現在のページでは文言を確認できませんでした）
 
 ## 確かめてみる
 
@@ -191,7 +191,7 @@ IPAの資料では、パスキーについて以下のように説明されて�
 
 ![認証器の例_NIST](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2284906/fb86592b-592c-4eb6-ad3b-e05a35bcfc11.png)
 
-出典：[NIST「Authenticator Examples」](https://pages.nist.gov/800-63-4-Implementation-Resources/authenticator/)
+出典：[7]
 
 パスキーに関して、以下の2つに分類されています。
 
@@ -199,13 +199,13 @@ IPAの資料では、パスキーについて以下のように説明されて�
 
 > Passkeys (without user verification)
 
-出典：[NIST「Authenticator Examples」](https://pages.nist.gov/800-63-4-Implementation-Resources/authenticator/)
+出典：[7]
 
 多要素の暗号学的認証器（Multi-factor cryptographic）の例として、
 
 > FIDO2 passkeys with user verification
 
-出典：[NIST「Authenticator Examples」](https://pages.nist.gov/800-63-4-Implementation-Resources/authenticator/)
+出典：[7]
 
 この分類から、パスキーはユーザー検証の有無によって、多要素認証に該当するかどうかが変わると解釈できます。
 
@@ -238,36 +238,22 @@ IPAの資料では、パスキーについて以下のように説明されて�
 
 <!-- 多段階認証、多要素認証、パスキー -->
 
-情報セキュリティ10大脅威 2024 知っておきたい用語や仕組み
-https://www.ipa.go.jp/security/10threats/m42obm000000jlc5-att/yougoyashikumi_2024.pdf
-確認日: 2026/11/07
+[1] [情報セキュリティ10大脅威 2024 知っておきたい用語や仕組み](https://www.ipa.go.jp/security/10threats/m42obm000000jlc5-att/yougoyashikumi_2024.pdf)（確認日: 2026/11/07）
 
 <!-- ワンタイムパスワード -->
 
-情報セキュリティ10大脅威 2024[個人編]（一般利用者向け）
-https://www.ipa.go.jp/security/10threats/m42obm000000jlbr-att/setsumei_2024_kojin_general.pdf
-確認日: 2026/11/08
+[2] [情報セキュリティ10大脅威 2024[個人編]（一般利用者向け）](https://www.ipa.go.jp/security/10threats/m42obm000000jlbr-att/setsumei_2024_kojin_general.pdf)（確認日: 2026/11/08）
 
 <!-- パスキーの認証のイメージ -->
 
-IPA NEWS Vol.68（2024年9月号）
-https://www.ipa.go.jp/about/ipanews/ipanews202409.html
-確認日: 2026/11/07
+[3] [IPA NEWS Vol.68（2024年9月号）](https://www.ipa.go.jp/about/ipanews/ipanews202409.html)（確認日: 2026/11/07）
 
 <!-- fido ALLIANCEのパスキー -->
 
-パスキー
-https://fidoalliance.org/passkeys/?lang=ja
-確認日: 2026/11/07
+[4] [パスキー](https://fidoalliance.org/passkeys/?lang=ja)（確認日: 2026/11/07）
 
-パスキー
-https://fidoalliance.org/passkeys-2/?lang=ja
-確認日: 2026/11/07
+[5] [パスキー](https://fidoalliance.org/passkeys-2/?lang=ja)（確認日: 2026/11/07）
 
-デジタル庁 オンラインでの本人確認の手法に関するガイドライン（1.2 その他の当人認証手法）
-https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/c7edc43c/20260224_resources_standard_guideline_identityverification_1.pdf
-確認日: 2026/11/08
+[6] [デジタル庁 オンラインでの本人確認の手法に関するガイドライン（1.2 その他の当人認証手法）](https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/c7edc43c/20260224_resources_standard_guideline_identityverification_1.pdf)（確認日: 2026/11/08）
 
-NIST Authenticator Examples
-https://pages.nist.gov/800-63-4-Implementation-Resources/authenticator/
-確認日: 2026/11/08
+[7] [NIST Authenticator Examples](https://pages.nist.gov/800-63-4-Implementation-Resources/authenticator/)（確認日: 2026/11/08）

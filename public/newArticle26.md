@@ -1,8 +1,11 @@
 ---
-title: newArticle26
+title: 二段階認証と二要素認証の違いを整理する ― メール認証とパスキーを例に
 tags:
   - セキュリティ
   - 認証
+  - 二段階認証
+  - 二要素認証
+  - パスキー
 private: false
 updated_at: ""
 id: null

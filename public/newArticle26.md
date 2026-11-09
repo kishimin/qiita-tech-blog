@@ -1,14 +1,14 @@
 ---
 title: 多段階認証と多要素認証の違いを整理する ― メール認証とパスキーを例に
 tags:
-  - セキュリティ
+  - Security
   - 認証
   - 多段階認証
   - 多要素認証
   - パスキー
 private: false
-updated_at: ""
-id: null
+updated_at: '2026-11-09T20:25:39+09:00'
+id: 697a850f0234ee8782f3
 organization_url_name: null
 slide: false
 ignorePublish: false

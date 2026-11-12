@@ -4,8 +4,8 @@ tags:
   - コンポーネント
   - フロントエンド
 private: false
-updated_at: ""
-id: null
+updated_at: '2026-11-12T20:34:37+09:00'
+id: 72bce3c5bad803938e28
 organization_url_name: null
 slide: false
 ignorePublish: false

@@ -1,12 +1,12 @@
 ---
 title: mojicaでAI × TDDしてみた。レビューが思ったより大変だった話
 tags:
-  - "TDD"
-  - "AI"
-  - "個人開発"
+  - TDD
+  - AI
+  - 個人開発
 private: false
-updated_at: ""
-id: null
+updated_at: '2026-11-13T20:44:48+09:00'
+id: dc8a1216f1fe08492769
 organization_url_name: null
 slide: false
 ignorePublish: false

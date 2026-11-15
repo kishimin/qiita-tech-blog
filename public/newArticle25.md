@@ -1,11 +1,11 @@
 ---
-title: "CoLab Conf（コラコン）2026秋で学んだこと"
+title: CoLab Conf（コラコン）2026秋で学んだこと
 tags:
-  - "AI"
-  - "キャリア"
+  - AI
+  - キャリア
 private: false
-updated_at: ""
-id: null
+updated_at: '2026-11-16T07:01:45+09:00'
+id: d7e188b37bd66efea372
 organization_url_name: null
 slide: false
 ignorePublish: false

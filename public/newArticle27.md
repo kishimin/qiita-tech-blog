@@ -4,7 +4,7 @@ tags:
   - Security
   - PHP
 private: false
-updated_at: '2026-11-22T10:21:30+09:00'
+updated_at: "2026-11-22T10:21:30+09:00"
 id: 1339e1569739a24cac0b
 organization_url_name: null
 slide: false
@@ -129,6 +129,8 @@ Wikipediaの説明からは、The PHP GroupはPHPをコミュニティベース�
 ## 脆弱性とは？
 
 ![脆弱性.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2284906/82a53e70-9b5c-4ceb-8cca-5b918aa8a305.png)
+
+[^9]
 
 IPAが公開している「情報セキュリティ10大脅威 2025」の資料では、脆弱性について以下のように説明されています。
 

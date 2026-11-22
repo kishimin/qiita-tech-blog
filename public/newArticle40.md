@@ -1,10 +1,10 @@
 ---
 title: JaSST'26 Kyushuで学んだこと
 tags:
-  - "ソフトウェアテスト"
+  - ソフトウェアテスト
 private: false
-updated_at: ""
-id: null
+updated_at: '2026-11-22T10:21:30+09:00'
+id: 543153e8377494ed24a0
 organization_url_name: null
 slide: false
 ignorePublish: false

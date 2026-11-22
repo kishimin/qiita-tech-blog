@@ -4,7 +4,7 @@ tags:
   - Security
   - PHP
 private: false
-updated_at: "2026-11-22T10:21:30+09:00"
+updated_at: '2026-11-22T10:28:31+09:00'
 id: 1339e1569739a24cac0b
 organization_url_name: null
 slide: false

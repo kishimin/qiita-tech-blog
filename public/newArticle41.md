@@ -1,11 +1,11 @@
 ---
 title: アクセシビリティカンファレンス福岡2026で学んだこと
 tags:
-  - "アクセシビリティ"
-  - "カンファレンス"
+  - アクセシビリティ
+  - カンファレンス
 private: false
-updated_at: ""
-id: null
+updated_at: '2026-11-22T22:20:28+09:00'
+id: 2cdc284b46db943d79aa
 organization_url_name: null
 slide: false
 ignorePublish: false
